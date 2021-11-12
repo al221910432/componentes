@@ -145,6 +145,7 @@ class _InputPageState extends State<InputPage> {
             items: getOpcionesDropdown(),
             onChanged: (opt) {
               setState(() {
+                print(opt);
                 _opcionSeleccionada = opt.toString();
               });
             },
